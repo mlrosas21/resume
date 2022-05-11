@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 99, 152, 166;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -120,7 +120,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.475rem + 2.7vw);
+  font-size: calc(1.8rem + 2.7vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -129,7 +129,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.5rem + 0.9vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -237,11 +237,10 @@ sup {
 }
 
 a {
-  color: #bd5d38;
-  text-decoration: underline;
+  color: #6398a6
 }
 a:hover {
-  color: #974a2d;
+  color: #375a6c;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2489,8 +2488,6 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -6433,6 +6430,10 @@ textarea.form-control-lg {
   display: block;
   clear: both;
   content: "";
+}
+
+.logoCTD {
+  max-height: 75px;
 }
 
 .link-primary {
